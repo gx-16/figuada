@@ -1,0 +1,97 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f4f6f8;
+  margin: 0;
+  color: #333;
+}
+
+/* HEADER */
+header {
+  background-color: #24292e;
+  color: white;
+  padding: 2rem 1rem;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2rem;
+}
+
+header p {
+  margin-top: 0.5rem;
+  font-size: 1rem;
+}
+
+/* MAIN */
+main {
+  max-width: 1000px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+}
+
+/* PROYECTOS */
+.proyecto {
+  background: white;
+  padding: 1.5rem;
+  margin-bottom: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.proyecto h2 {
+  margin-top: 0;
+  font-size: 1.4rem;
+}
+
+.proyecto p {
+  line-height: 1.5;
+}
+
+.proyecto a {
+  display: inline-block;
+  margin-top: 1rem;
+  text-decoration: none;
+  color: white;
+  background-color: #0969da;
+  padding: 0.6rem 1.2rem;
+  border-radius: 6px;
+  font-size: 1rem;
+}
+
+.proyecto a:hover {
+  background-color: #0550ae;
+}
+
+/* FOOTER */
+footer {
+  text-align: center;
+  padding: 1rem;
+  color: #666;
+  font-size: 0.9rem;
+}
+
+/* 📱 RESPONSIVE */
+@media (max-width: 600px) {
+
+  header h1 {
+    font-size: 1.6rem;
+  }
+
+  .proyecto h2 {
+    font-size: 1.2rem;
+  }
+
+  .proyecto {
+    padding: 1.2rem;
+  }
+
+  .proyecto a {
+    width: 100%;
+    text-align: center;
+  }
+}
